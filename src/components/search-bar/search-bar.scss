@@ -4,7 +4,7 @@
     margin: 0 auto;
     width: 80%;
     bottom: -10px;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, 50%);
     display: flex;
@@ -14,7 +14,7 @@
 }
 
 .filter-title-div, .filter-location-div, .search-button-div{
-    height: 100%;
+    height: 70px;
     width: 33%;
 
     .input-text{
