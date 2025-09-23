@@ -6,3 +6,11 @@ $White: #FFFFFF;
 $Light-gray: #F4F6F8;
 $Gray: #9DAEC2;
 $Dark-gray: #6E8098;
+
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: $Light-gray;
+}
