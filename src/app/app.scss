@@ -42,7 +42,7 @@ header{
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: $White;
+  background-color: #eeecec;
   -webkit-transition: .4s;
   transition: .4s;
 }
@@ -60,7 +60,7 @@ header{
 }
 
 input:checked + .slider {
-  background-color: $White;
+  background-color: #eeecec;
 }
 
 input:focus + .slider {
