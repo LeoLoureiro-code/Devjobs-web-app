@@ -1,16 +1,24 @@
-$Violet: #9e7f66;
-$Light-violet: #939BF4;
-$Very-dark-blue: #19202D;
-$Midnight: #121721;
-$White: #FFFFFF;
-$Light-gray: #F4F6F8;
-$Gray: #9DAEC2;
-$Dark-gray: #6E8098;
+@use './styles/themes.scss' as *;
 
+$tablet: 780px;
+$mobile: 480px;
 
 body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: $Light-gray;
+    background-color: var(--background-color);
+}
+
+.search{
+     background-color: var(--primary-color);
+}
+
+.input_job_card{
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
+
+.left_border{
+    border-left: 1p solid var(--text-color);
 }
