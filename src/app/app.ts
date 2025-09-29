@@ -4,7 +4,7 @@ import { SearchBar } from "../components/search-bar/search-bar";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, SearchBar],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
