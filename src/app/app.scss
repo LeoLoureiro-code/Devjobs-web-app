@@ -10,6 +10,7 @@ header{
     display: flex;
     justify-content: space-between;
     position: relative;
+    transition: 1s ease-in-out;
 
     @media (max-width: $tablet) {
       height: 100px;
