@@ -22,3 +22,14 @@ body{
 .left_border{
     border-left: 1p solid var(--text-color);
 }
+
+.btn{
+    height: 48px;
+    width: 141px;
+    background-color: var(--secondary-color);
+    color: white;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
