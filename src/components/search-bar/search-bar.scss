@@ -10,7 +10,6 @@
     left: 50%;
     transform: translate(-50%, 50%);
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
     border-radius: 10px;
     padding: 0.5rem 1rem 0.5rem 1rem;
@@ -24,9 +23,6 @@
     justify-content: center;
     align-items: center;
 
-    @media (max-width: $tablet) {
-     
-    }
 
     img{
         display: inline-block;
@@ -49,5 +45,17 @@
 
 .search-button-div{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-evenly !important;
+
+    label{
+        font-weight: 700;
+
+        span{
+        @media (max-width: $laptop) {
+            display: none;
+        }
+    }
+    }
+    
+    
 }
