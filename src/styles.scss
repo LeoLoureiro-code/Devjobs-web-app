@@ -1,5 +1,6 @@
 @use './styles/themes.scss' as *;
 
+$laptop: 1100px;
 $tablet: 780px;
 $mobile: 480px;
 
@@ -32,4 +33,8 @@ body{
     border: none;
     outline: none;
     border-radius: 10px;
+
+    @media (max-width: $laptop) {
+        width: 80px;
+    }
 }
