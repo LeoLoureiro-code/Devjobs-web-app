@@ -15,4 +15,18 @@ export class App {
   document.body.classList.remove('light-theme', 'dark-theme');
   document.body.classList.add(isDark ? 'dark-theme' : 'light-theme');
 }
+
+isModalOpen = false;
+
+  openModal() {
+    this.isModalOpen = true;
+  }
+
+  closeModal() {
+    this.isModalOpen = false;
+  }
+
+  doSomething() {
+    alert("Hiciste algo dentro del modal 🎉");
+  }
 }
