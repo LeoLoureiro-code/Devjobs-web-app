@@ -1,0 +1,20 @@
+@use './variables' as *;
+
+@use './themes/light-theme' as light;
+@use './themes/dark-theme' as dark;
+
+.light-theme{
+    --primary-color: #{light.$color-primary};
+    --secondary-color: #{light.$color-secondary};
+    --important-color: #{light.$color-important};
+    --background-color: #{light.$color-background};
+    --text-color: #{light.$color-text};
+}
+
+.dark-theme {
+    --primary-color: #{dark.$color-primary};
+    --secondary-color: #{dark.$color-secondary};
+    --important-color: #{dark.$color-important};
+    --background-color: #{dark.$color-background};
+    --text-color: #{dark.$color-text};
+}
