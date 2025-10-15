@@ -1,6 +1,13 @@
 @use '../styles.scss' as *;
 
+header{
+  height: 70px;
+  display: flex;
+  justify-content: flex-end;
+}
+
 .switch_div{
+    position: absolute;
     width: 112px;
     height: 24px;
     display: flex;
