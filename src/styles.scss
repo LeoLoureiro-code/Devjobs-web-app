@@ -10,3 +10,18 @@ body{
     box-sizing: border-box;
     background-color: var(--background-color);
 }
+
+header{
+    background-color: var(--primary-color);
+    padding: 3rem 6rem 0 6rem;
+
+    @media (max-width: $tablet) {
+      height: 100px;
+      padding: 2rem 4rem 0 4rem;
+    }
+
+     @media (max-width: $mobile) {
+      height: 80px;
+      padding: 1.5rem 2rem 0 2rem;
+    }
+}
