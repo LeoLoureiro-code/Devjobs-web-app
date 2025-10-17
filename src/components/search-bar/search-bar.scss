@@ -1,0 +1,15 @@
+.search-bar-div{
+    width: 100%;
+    display: flex;
+
+        .search-input{
+            width: 100%;
+            border: none;
+            outline: none;
+            height: 30px;
+        }
+
+        .search-img{
+            background-color: transparent;
+        }
+}
